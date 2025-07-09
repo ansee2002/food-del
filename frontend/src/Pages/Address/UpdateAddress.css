@@ -1,0 +1,90 @@
+/* UpdateAddress.css */
+
+.address-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .address-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .address-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .address-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .address-checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .address-checkbox-label input {
+    margin-right: 8px;
+  }
+  
+  .address-update-btn {
+    background-color: rgb(188, 42, 16);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .address-update-btn:hover {
+    background-color: tomato;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .address-form-container {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .address-input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .address-update-btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .address-form-container {
+      padding: 10px;
+    }
+  
+    .address-input {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .address-update-btn {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  

@@ -1,0 +1,50 @@
+/* AddAddress.css */
+
+.add-address-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-address-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-address-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-address-input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-address-checkbox-label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .add-address-btn {
+    padding: 10px;
+    background-color: rgb(188, 42, 16);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .add-address-btn:hover {
+    background-color: tomato;
+  }
+  

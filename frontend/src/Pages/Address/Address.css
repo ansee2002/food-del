@@ -1,0 +1,148 @@
+/* Address.css */
+
+.address-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.address-title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.address-add-btn {
+  background-color: rgb(188, 42, 16);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.address-add-btn:hover {
+  background-color: tomato;
+}
+
+.address-list {
+  list-style: none;
+  padding: 0;
+}
+
+.address-item {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.address-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.address-details,
+.address-phone {
+  font-size: 14px;
+  color: #555;
+}
+
+.address-default-badge {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.address-update-btn,
+.address-delete-btn {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.address-update-btn {
+  background-color: #ffc107;
+  color: black;
+  margin-right: 10px;
+}
+
+.address-update-btn:hover {
+  background-color: #e0a800;
+}
+
+.address-delete-btn {
+  background-color:  rgb(188, 42, 16);
+  color: white;
+}
+
+.address-delete-btn:hover {
+  background-color: tomato;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .address-page {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .address-item {
+    padding: 10px;
+  }
+
+  .address-name {
+    font-size: 16px;
+  }
+
+  .address-details, .address-phone {
+    font-size: 12px;
+  }
+
+  .address-update-btn, .address-delete-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .address-page {
+    padding: 10px;
+  }
+
+  .address-add-btn {
+    width: 100%;
+  }
+
+  .address-item {
+    padding: 8px;
+  }
+
+  .address-name {
+    font-size: 14px;
+  }
+
+  .address-details, .address-phone {
+    font-size: 12px;
+  }
+  .address-update-btn, .address-delete-btn {
+    font-size: 12px;
+    padding: 5px 8px;
+    width: 48%;
+  }
+  
+}

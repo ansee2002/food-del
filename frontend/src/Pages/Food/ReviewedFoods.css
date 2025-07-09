@@ -1,0 +1,109 @@
+/* Container styling */
+.reviewed-foods-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Heading */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Grid layout for food cards */
+.reviewed-foods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual food card */
+.reviewed-food-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add more space below product name */
+.reviewed-food-card h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px; /* Adds space below the product name */
+}
+
+.reviewed-food-card:hover {
+    /* transform: translateY(-5px); */
+    transform: scale(1.05);
+}
+
+/* Food image styling */
+.reviewed-food-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Price and category styling */
+.reviewed-food-card p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* No reviews message */
+.no-products-message {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Reviews section */
+.reviewed-food-card ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+}
+
+.reviewed-food-card li {
+    background: #f8f8f8;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .reviewed-foods-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    
+    .reviewed-food-card {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .reviewed-food-card p {
+        font-size: 0.9rem;
+    }
+}
